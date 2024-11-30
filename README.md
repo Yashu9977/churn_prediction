@@ -1,3 +1,5 @@
+# Project Overview
+
 This project is designed to provide a comprehensive analysis and optimization of ensemble learning models specifically targeted at churn prediction. By leveraging the strengths of different ensemble methods, including Gradient Boosting and AdaBoost, the project aims to refine predictive performance through systematic training, evaluation, and hyperparameter tuning.
 
 Tools and Technologies
