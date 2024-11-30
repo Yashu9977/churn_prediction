@@ -11,7 +11,7 @@ Conda Environment: Ensures a controlled and consistent setup across all developm
 Methodology
 The process begins with preprocessing the input data, ensuring that it is clean and formatted correctly. This data is then used to train several models. Each model is first evaluated using standard metrics such as confusion matrices and classification reports to establish a baseline performance. Following this, a detailed hyperparameter tuning session is conducted using GridSearchCV, aiming to find the optimal settings for each model that enhance their prediction accuracy.
 
-# Insights
+# Exploration Data Analysis - Insights
 
 ### Findings from Univariate Analysis
 
@@ -59,7 +59,7 @@ The process begins with preprocessing the input data, ensuring that it is clean 
 
 
 
-# Model Inferencing for daily level usage
+# Model Inferencing for daily level usage - instructions to run
 
 
 Creating a Python Environment
