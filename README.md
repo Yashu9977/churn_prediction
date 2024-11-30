@@ -9,6 +9,9 @@ Conda Environment: Ensures a controlled and consistent setup across all developm
 Methodology
 The process begins with preprocessing the input data, ensuring that it is clean and formatted correctly. This data is then used to train several models. Each model is first evaluated using standard metrics such as confusion matrices and classification reports to establish a baseline performance. Following this, a detailed hyperparameter tuning session is conducted using GridSearchCV, aiming to find the optimal settings for each model that enhance their prediction accuracy.
 
+# Model Inferencing for daily level usage
+
+
 Creating a Python Environment
 
   * conda create --name churn_prediction python=3.10.13
@@ -26,11 +29,10 @@ Summary of best model gradient boosting classifier - top_6_features
 
 Classification Report:
               precision    recall  f1-score   support
+              0.0       0.92      0.97      0.94       545
+              1.0       0.96      0.92      0.94       543
 
-         0.0       0.92      0.97      0.94       545
-         1.0       0.96      0.92      0.94       543
-
-    accuracy                           0.94      1088
+   accuracy                           0.94      1088
    macro avg       0.94      0.94      0.94      1088
 weighted avg       0.94      0.94      0.94      1088
 
@@ -43,10 +45,10 @@ Summary of best model gradient boosting classifier - top_8_features
 Classification Report:
               precision    recall  f1-score   support
 
-         0.0       0.93      0.97      0.95       545
-         1.0       0.97      0.93      0.95       543
+  0.0       0.93      0.97      0.95       545
+  1.0       0.97      0.93      0.95       543
 
-    accuracy                           0.95      1088
+   accuracy                           0.95      1088
    macro avg       0.95      0.95      0.95      1088
 weighted avg       0.95      0.95      0.95      1088
 
@@ -58,11 +60,12 @@ Summary of best model gradient boosting classifier - top_10_features
 Classification Report:
               precision    recall  f1-score   support
 
-         0.0       0.92      0.96      0.94       545
-         1.0       0.96      0.92      0.94       543
+   0.0       0.92      0.96      0.94       545
+   1.0       0.96      0.92      0.94       543
 
-    accuracy                           0.94      1088
+   accuracy                           0.94      1088
    macro avg       0.94      0.94      0.94      1088
 weighted avg       0.94      0.94      0.94      1088
+
 
 
