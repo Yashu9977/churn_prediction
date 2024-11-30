@@ -68,4 +68,6 @@ Classification Report:
 weighted avg       0.94      0.94      0.94      1088
 
 
+The classification report showcases a model with strong predictive performance in distinguishing between non-churn (class 0.0) and churn (class 1.0) customers. The model achieved a precision of 0.92 for non-churn and 0.96 for churn, with recall rates of 0.96 and 0.92, respectively. Both classes have an F1-score of 0.94, indicating a balanced performance. The overall accuracy of the model is 94% across 1088 instances, with macro and weighted averages for precision, recall, and F1-score all at 0.94. This demonstrates the model’s reliability and effectiveness in predicting customer churn and non-churn outcomes.
+
 
