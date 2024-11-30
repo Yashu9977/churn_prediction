@@ -32,7 +32,7 @@ The process begins with preprocessing the input data, ensuring that it is clean 
 * The average cashback received last month is around 177.36, with a median of 163.38 and a mode of 123.42, indicating that most customers receive moderate cashback amounts
 * The churn rate is relatively low, with 20% of customers (1.0) having churned and 80% (0.0) retained, indicating overall stability but highlighting a segment that requires attention to prevent further churn.
   
-### Findings from Biivariate Analysis
+### Findings from Bivariate Analysis
 
 * Customers who churn tend to have a significantly shorter tenure (average of 3.9 months) compared to those who don't (average of 11.5 months). Strategies to engage customers early in their lifecycle could be crucial in reducing churn and enhancing long-term customer retention
 * Customers who prefer logging in via Mobile Phone have the highest retention rate, with the lowest proportion of churn compared to other devices. Conversely, customers using a Phone have the highest churn rate relative to their count.
