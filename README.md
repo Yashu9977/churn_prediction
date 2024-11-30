@@ -23,6 +23,14 @@ Creating a Python Environment
 
 Call inference.py for live predictions and pass data locations 
 
+if __name__ == "__main__":
+    data_path = 'live_data.csv' 
+    encoders_path = 'models/encoders.pkl'
+    model_path = 'models/gmm.pkl'
+    predictor = churn_predictor(data_path, encoders_path, model_path)
+    predictions = predictor.predict()
+    print(predictions)
+
 
 # Model Training and Evalution
 
